@@ -1,0 +1,25 @@
+FASTEST WAY TO CREATE THE APK
+
+Option 1 - Android Studio
+1. Extract this ZIP.
+2. Open the extracted folder in Android Studio.
+3. Wait until Gradle Sync finishes.
+4. Click: Build > Build App Bundle(s) / APK(s) > Build APK(s).
+5. Click "locate" when Android Studio says APK generated successfully.
+6. APK file location: app/build/outputs/apk/debug/app-debug.apk
+7. Copy app-debug.apk to the Samsung tablet and install it.
+
+Option 2 - GitHub automatic APK build
+1. Upload this project folder to a GitHub repository.
+2. Open the repository on GitHub.
+3. Go to Actions.
+4. Select "Build Debug APK".
+5. Click "Run workflow".
+6. After it finishes, download the artifact named Asset-QR-Verifier-debug-apk.
+7. Inside the downloaded artifact you will find the APK.
+
+Samsung tablet install
+1. Copy APK to tablet.
+2. Open APK.
+3. Allow installation from unknown apps if Samsung asks.
+4. Install and open Asset QR Verifier.
